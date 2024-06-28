@@ -16,4 +16,4 @@ You can copy this code into the Arduino IDE and upload it to your Arduino board.
 
 If you need any further assistance or have any specific requirements, feel free to ask!
 
-good lack
+good luck
