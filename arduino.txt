@@ -1,0 +1,21 @@
+// Pin definitions
+const int ledPin3 = 3; // LED connected to pin 3
+const int ledPin4 = 4; // LED connected to pin 4
+
+void setup() {
+  // Set the LED pins as output
+  pinMode(ledPin3, OUTPUT);
+  pinMode(ledPin4, OUTPUT);
+}
+
+void loop() {
+  // Turn on the LED on pin 3 and turn off the LED on pin 4
+  digitalWrite(ledPin3, HIGH);
+  digitalWrite(ledPin4, LOW);
+  delay(500); // Wait for 500 milliseconds
+
+  // Turn off the LED on pin 3 and turn on the LED on pin 4
+  digitalWrite(ledPin3, LOW);
+  digitalWrite(ledPin4, HIGH);
+  delay(500); // Wait for 500 milliseconds
+}
